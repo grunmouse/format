@@ -76,4 +76,6 @@ const format = (reg)=>({
 
 module.exports = format(curve);
 
-module.exports.buck = format(bucks)
+module.exports.buck = format(bucks);
+
+module.exports.recursive = require('./recursive.js');
